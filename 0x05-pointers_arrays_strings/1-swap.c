@@ -1,12 +1,14 @@
+#include "main.h"
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * swap_int - swaps the values of two integers
+ * @a: integer to swap
+ * @b: integer to swap
  */
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
-int r;
-r=*a;
-*a=*b
-*b=r
+	int m;
+
+	m = *a;
+	*a = *b;
+	*b = m;
 }
